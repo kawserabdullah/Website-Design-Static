@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 #banner{
     background: linear-gradient(rgba(0,0,0,0.5),#009688),url(images/banner.jpg);
     background-size: cover;
@@ -59,6 +60,7 @@
 .banner-btn a:hover{
     color: #000;
 }
+
 #sideNav{
     width: 250px;
     height: 100vh;
@@ -77,6 +79,7 @@ nav ul li a{
     text-decoration: none;
     color: #fff;
 }
+
 #menuBtn{
     width: 50px;
     height: 50px;
@@ -93,6 +96,7 @@ nav ul li a{
     width: 20px;
     margin-top: 15px;
 }
+
 @media screen and (max-width: 770px) {
     .banner-text h1{
         font-size: 44px;
@@ -137,6 +141,7 @@ nav ul li a{
 .title-text h1{
     font-size: 50px;
 }
+
 .feature-box{
     width: 80%;
     margin: auto;
@@ -162,6 +167,7 @@ nav ul li a{
     font-weight: 100;
     color: #009688;
 }
+
 .features-desc{
     display: flex;
     align-items: center;
@@ -180,6 +186,7 @@ nav ul li a{
     padding: 0 20px;
     text-align: initial;
 }
+
 @media screen and (max-width: 770px) {
     .title-text h1{
         font-size: 35px;
@@ -234,6 +241,7 @@ nav ul li a{
 .single-service:hover .overlay{
     opacity: 1;
 }
+
 .service-desc{
     width: 80%;
     position: absolute;
@@ -257,6 +265,7 @@ hr{
     bottom: 40%;
     opacity: 1;
 }
+
 @media screen and (max-width: 770px){
     .single-service{
         flex-basis: 100%;
@@ -286,6 +295,7 @@ hr{
     align-items: flex-start;
     flex-wrap: wrap;
 }
+
 .testimonial-col{
     flex-basis: 28%;
     padding: 10px;
@@ -298,6 +308,7 @@ hr{
 .testimonial-col p{
     font-size: 14px;
 }
+
 .user{
     display: flex;
     align-items: center;
@@ -319,6 +330,7 @@ hr{
 .testimonial-col:hover{
     transform: translateY(-7px);
 }
+
 @media screen and (max-width: 770px){
     .testimonial-col{
         flex-basis: 100%;
@@ -338,6 +350,7 @@ hr{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .footer-left,.footer-right{
     flex-basis: 45%;
     padding: 10px;
@@ -388,6 +401,7 @@ hr{
     font-size: 12px;
     margin-top: 20px;
 }
+
 @media screen and (max-width: 770px){
     .footer-left,.footer-right{
         flex-basis: 100%;
